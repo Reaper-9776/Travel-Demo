@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Agency — Ultimate Demo</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <div class="brand">TravelDemo</div>
+        <nav class="menu">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact" class="cta">Book Now</a>
+        </nav>
+        <button id="mobileToggle">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section id="home" class="hero">
+        <div class="hero-slider">
+          <div
+            class="slide active"
+            style="
+              background-image: url('https://picsum.photos/id/1015/1920/1080');
+            "
+          ></div>
+          <div
+            class="slide"
+            style="
+              background-image: url('https://picsum.photos/id/1016/1920/1080');
+            "
+          ></div>
+          <div
+            class="slide"
+            style="
+              background-image: url('https://picsum.photos/id/1018/1920/1080');
+            "
+          ></div>
+        </div>
+
+        <div class="hero-overlay">
+          <div class="hero-left">
+            <h1>Discover the World With Us</h1>
+            <p>
+              Experience premium tours, easy booking, and 24/7 support. Explore
+              the world like never before.
+            </p>
+
+            <div class="search-card">
+              <input type="text" placeholder="Destination or City" />
+              <select>
+                <option>Departure Date</option>
+                <option>2025-11-20</option>
+              </select>
+              <select>
+                <option>Trip Duration</option>
+                <option>3 Days</option>
+              </select>
+              <button class="btn-search">Search</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES SECTION -->
+      <section id="services" class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services">
+          <div class="card">
+            <h3>International Tours</h3>
+            <p>Planned packages for the best destinations worldwide.</p>
+          </div>
+          <div class="card">
+            <h3>Ticket Booking</h3>
+            <p>Affordable flights and direct options with multiple choices.</p>
+          </div>
+          <div class="card">
+            <h3>Local Tours</h3>
+            <p>Guided local experiences and daily special activities.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section id="gallery" class="container">
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery">
+          <img src="https://picsum.photos/seed/1/800/600" alt="Destination 1" />
+          <img src="https://picsum.photos/seed/2/800/600" alt="Destination 2" />
+          <img src="https://picsum.photos/seed/3/800/600" alt="Destination 3" />
+          <img src="https://picsum.photos/seed/4/800/600" alt="Destination 4" />
+          <img src="https://picsum.photos/seed/5/800/600" alt="Destination 5" />
+          <img src="https://picsum.photos/seed/6/800/600" alt="Destination 6" />
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section id="testimonials" class="container">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="testimonials">
+          <div class="testimonial">
+            <strong>Sara</strong>
+            <p>
+              The Rome tour was amazing — everything was organized perfectly.
+            </p>
+          </div>
+          <div class="testimonial">
+            <strong>Mehdi</strong>
+            <p>Quick support and easy booking; will definitely use again.</p>
+          </div>
+          <div class="testimonial">
+            <strong>Lily</strong>
+            <p>Local tours were unique — excellent guide!</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-grid">
+          <div>
+            <p>Address: Sample Street, Sample City</p>
+            <p>Phone: +1 234 567 890</p>
+            <p>Email: info@example.com</p>
+            <hr style="margin: 16px 0" />
+            <h3>Contact Form</h3>
+            <form id="contactForm">
+              <div class="field">
+                <label>Name</label>
+                <input type="text" name="name" required />
+              </div>
+              <div class="field">
+                <label>Email</label>
+                <input
+                  type="email"
+                  placeholder="example@mail.com"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label>Message</label>
+                <textarea name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+          <aside class="card">
+            <h3>Special Offer</h3>
+            <p>Bali Tour 30% Off — Limited Seats!</p>
+            <p><strong>Price: 999$</strong></p>
+            <a class="cta" href="#">More Details</a>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 TravelDemo — Made with ❤️</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
