@@ -1,13 +1,13 @@
-Restaurant Menu
+Travel Demo
 
-A simple restaurant menu website built with HTML and CSS.
+A responsive travel landing page designed to showcase travel destinations and tourism services.
 
 Features
 
-- Food categories
-- Clean menu layout
 - Responsive design
-- User-friendly interface
+- Modern travel-themed layout
+- Clean user interface
+- Mobile-friendly experience
 
 Technologies Used
 
@@ -17,7 +17,7 @@ Technologies Used
 
 Purpose
 
-This project focuses on layout design and responsive web development fundamentals.
+This project was created to practice responsive web design and landing page development.
 
 Author
 
